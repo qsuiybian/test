@@ -67,9 +67,10 @@
                 <version>1.9.5</version>
                 <configuration>
                     <connectionType>developerConnection</connectionType>
+                    <username>2533841806@qq.com</username>
+                    <password>G12Q34Y56cady</password>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
