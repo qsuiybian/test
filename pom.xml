@@ -71,6 +71,18 @@
                     <password>g12q34y56</password>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <username>2533841806@qq.com</username>
+                    <password>g12q34y56</password>
+                    <tagBase>${project.artifactId}-${project.version}</tagBase>
+                    <goals>-f pom.xml deploy</goals>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
