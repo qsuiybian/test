@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
 * ProductController Tester.
 *
-* @author <Authors name>
+* @author Cady
 * @since <pre>???? 31, 2018</pre>
 * @version 1.0
 */
