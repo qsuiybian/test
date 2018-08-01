@@ -1,4 +1,4 @@
-package com.gqy.restfuldemo;
+package com.gqy.restfuldemo.product;
 
 import java.util.List;
 
@@ -10,18 +10,18 @@ import java.util.List;
  * @Description:
  * @Date date: 2018-07-31
  */
-public class Produce {
+public class ProductType {
     private Integer type;
     private String name;
-    private List<Food> foods;
+    private List<ProductView> productViews;
 
-    public Produce() {
+    public ProductType() {
     }
 
-    public Produce(Integer type, String name, List<Food> foods) {
+    public ProductType(Integer type, String name, List<ProductView> productViews) {
         this.type = type;
         this.name = name;
-        this.foods = foods;
+        this.productViews = productViews;
     }
 
     public Integer getType() {
@@ -40,20 +40,20 @@ public class Produce {
         this.name = name;
     }
 
-    public List<Food> getFoods() {
-        return foods;
+    public List<ProductView> getProductViews() {
+        return productViews;
     }
 
-    public void setFoods(List<Food> foods) {
-        this.foods = foods;
+    public void setProductViews(List<ProductView> productViews) {
+        this.productViews = productViews;
     }
 
     @Override
     public String toString() {
-        return "Produce{" +
+        return "ProductType{" +
                 "type=" + type +
                 ", name='" + name + '\'' +
-                ", foods=" + foods +
+                ", productInfos=" + productViews +
                 '}';
     }
 }

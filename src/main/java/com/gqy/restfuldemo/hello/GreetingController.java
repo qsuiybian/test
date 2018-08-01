@@ -1,4 +1,4 @@
-package com.gqy.restfuldemo;
+package com.gqy.restfuldemo.hello;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,7 +28,7 @@ public class GreetingController {
      * @Description
      * @Date: 11:38 2018-07-30
      * @Param name
-     * @return com.gqy.restfuldemo.Greeting
+     * @return com.gqy.restfuldemo.hello.Greeting
      */
     @RequestMapping(value = "/greeting", method = RequestMethod.GET)
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {

@@ -1,4 +1,4 @@
-package com.gqy.restfuldemo;
+package com.gqy.restfuldemo.hello;
 
 /**
  * @author:Cady

@@ -1,24 +1,24 @@
-package com.gqy.restfuldemo;
+package com.gqy.restfuldemo.product;
 
 /**
  * @author:Cady
  * @version:
  * @Project: restful_demo
- * @Package: com.gqy.restfuldemo
+ * @Package: com.gqy.restfuldemo.product
  * @Description:
- * @Date date: 2018-07-31
+ * @Date date: 2018-08-01
  */
-public class Food {
+public class ProductView {
     private Integer id;
     private String name;
     private Double price;
     private String description;
     private String icon;
 
-    public Food() {
+    public ProductView() {
     }
 
-    public Food(Integer id, String name, Double price, String description, String icon) {
+    public ProductView(Integer id, String name, Double price, String description, String icon) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -64,16 +64,5 @@ public class Food {
 
     public void setIcon(String icon) {
         this.icon = icon;
-    }
-
-    @Override
-    public String toString() {
-        return "Food{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' +
-                ", icon='" + icon + '\'' +
-                '}';
     }
 }

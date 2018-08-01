@@ -1,5 +1,6 @@
-package com.gqy.restfuldemo;
+package com.gqy.restfuldemo.hello;
 
+import com.gqy.restfuldemo.hello.FourMethodController;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.Before;

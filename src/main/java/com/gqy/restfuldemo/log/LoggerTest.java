@@ -1,5 +1,6 @@
 package com.gqy.restfuldemo.log;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +26,7 @@ public class LoggerTest {
         logger.warn("warn");
         logger.info("info");
         logger.debug("debug");
+        ObjectMapper mapper = new ObjectMapper();
         return "success";
     }
 }
