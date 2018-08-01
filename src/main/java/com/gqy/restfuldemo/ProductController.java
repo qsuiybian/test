@@ -34,7 +34,7 @@ public class ProductController {
         List<Produce> produces = new ArrayList<>();
         produces.add(new Produce(1, "type1", foodList1));
         produces.add(new Produce(2, "type2", foodList2));
-        Map<String,Object> result = new HashMap<>();
+        Map<String,Object> result = new HashMap<>(6);
         result.put("msg","success");
         result.put("data",produces);
         return result;
