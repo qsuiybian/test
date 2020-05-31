@@ -34,7 +34,7 @@ public class GreetingController {
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
         logger.info("greeting v1");
         logger.warn("greeting warn v2");
-        logger.debug("greeting debug");
+        logger.debug("greeting debug v3");
         logger.error("greeting error");
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
