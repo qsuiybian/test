@@ -32,7 +32,7 @@ public class GreetingController {
      */
     @RequestMapping(value = "/greeting", method = RequestMethod.GET)
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        logger.info("greeting");
+        logger.info("greeting v1");
         logger.warn("greeting warn");
         logger.debug("greeting debug");
         logger.error("greeting error");
