@@ -33,7 +33,7 @@ public class GreetingController {
     @RequestMapping(value = "/greeting", method = RequestMethod.GET)
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
         logger.info("greeting v1");
-        logger.warn("greeting warn");
+        logger.warn("greeting warn v2");
         logger.debug("greeting debug");
         logger.error("greeting error");
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
